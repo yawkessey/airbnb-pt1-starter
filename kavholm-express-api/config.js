@@ -20,13 +20,13 @@ function getDatabaseUri() {
 
 const BCRYPT_WORK_FACTOR = IS_TESTING ? 1 : 13
 
-console.log("Kavholm Config:".red)
-console.log("PORT:".blue, PORT)
-console.log("SECRET_KEY:".blue, SECRET_KEY)
-console.log("IS_TESTING:".blue, IS_TESTING)
-console.log("BCRYPT_WORK_FACTOR".blue, BCRYPT_WORK_FACTOR)
-console.log("Database:".blue, getDatabaseUri())
-console.log("---")
+// console.log("Kavholm Config:".red)
+// console.log("PORT:".blue, PORT)
+// console.log("SECRET_KEY:".blue, SECRET_KEY)
+// console.log("IS_TESTING:".blue, IS_TESTING)
+// console.log("BCRYPT_WORK_FACTOR".blue, BCRYPT_WORK_FACTOR)
+// console.log("Database:".blue, getDatabaseUri())
+// console.log("---")
 
 module.exports = {
   PORT,
